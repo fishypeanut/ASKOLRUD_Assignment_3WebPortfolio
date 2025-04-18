@@ -1,0 +1,615 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+p{
+    font-size: 1rem;
+    color: #c4c4c4;
+    margin: 0;
+    text-align: left;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    height: 70px;
+    width: 100%;
+    background: #17130A;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Special Texts */
+
+.nav-logo {
+    max-width: 60px;
+    height: auto;
+    display: inline-block;
+}
+
+
+.infoparagraph {
+    font-size: 1.2rem;
+    color: #BD8C2F;
+    margin: 0;
+    text-align: left;
+    padding: 10px;
+}
+
+/* Navigation Bar */
+
+a{
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #B47B12;
+    text-decoration: underline;
+}
+header{
+    position:fixed;
+    top:0;
+}
+nav ul li a.active {
+    display: flex;
+    color: #B47B12;
+    text-decoration: underline;    
+}
+
+nav {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 0 30px;
+}
+
+nav ul {
+    height: 60px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: flex;
+    align-items: center;
+    min-height: 100%;
+    margin: 0 20px;
+}
+
+.navlogo{
+    max-height: 100%;
+}
+nav ul li {
+    position: relative;
+    height: 100%;
+}
+
+nav ul li a {
+    color: #eeeeee;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+/* img {
+    padding: 20px;
+} */
+
+main {
+    margin-top: 60px;
+}
+
+/* Logo + Name + Calligrafilipino */
+
+
+.logoname {
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    max-width: 70px;
+    height: auto;
+    padding: 10px;
+}
+
+.taipanlucero {
+    font-family: "merriweather", serif;
+    font-size: 2rem;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    padding: 5px;
+}
+
+.calligrafilipino {
+    font-family: "libre baskerville", serif;
+    font-style: italic;
+    font-size: 2.5rem;
+    color:#BD8C2F;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    padding: 5px;
+}
+
+.calligraphyseriestitle {
+    font-family: "libre baskerville", serif;
+    font-style: italic;
+    font-size: 2.5rem;
+    color:#BD2F2F;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    padding: 5px;
+}
+
+.colorseriestitle {
+    font-family: "libre baskerville", serif;
+    font-style: italic;
+    font-size: 2.5rem;
+    color:#2F7BBD;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    padding: 5px;
+}
+
+/* Special Logos */
+.logo-container{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+.logo-container:hover .logo-hover{
+    opacity: 1;
+}
+.logo-container:hover .logo {
+    opacity: 0;
+}
+.logo-hover{
+    position: absolute;
+    opacity: 0;
+    max-width: 70px;
+    height: auto;
+    padding: 10px;
+    }
+    /* width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0; */
+
+.logo{
+    max-width: 70px;
+    height: auto;
+    padding: 10px;
+}
+
+.bluelogo {
+    max-width: 70px;
+    height: auto;
+    padding: 10px;
+}
+
+.redlogo {
+    max-width: 70px;
+    height: auto;
+    padding: 10px;
+}
+
+
+/* Special Images */
+
+.groupedupdates {
+    max-width: 90%;
+    height: auto;
+
+}
+
+.taipanimg {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    align-items: center;
+    padding: 30px;
+}
+
+.bluecircle {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    align-items: center;
+    padding: 30px;
+}
+
+.redandgold {
+    width: 80%;
+    height: auto;
+    display: block;
+    align-items: center;
+    padding: 50px;
+}
+
+/* Gallery Page */
+
+.spacecontainer {
+    height: 40px;
+    width: 100%;
+    display: gril;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.gallerytextcontainer {
+    background-color: #17130A;
+    height: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+    justify-content: center;
+    border: 3px solid #B47B12;
+}
+
+.galleryinfoparagraph {
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #BD8C2F;
+}
+
+.gallerytop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    /* padding: 10px; */
+}
+.galleryHero{
+    background-color: #17130A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.gallery-abouttext {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    width: 80%;
+    max-width: 800px;
+    padding: 50px;
+}
+
+.gallery-container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: left;
+    width: 80%;
+    margin: 0 auto; */
+}
+
+.gallery-container img {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+}
+
+.galleryimages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 70%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+}
+
+.column {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: flex-start;
+}
+
+.imagewrapper {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+/* Gallery Sticky */
+
+.gallerysticky {
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    top: 45px;
+    width: 100%;
+    max-width: 100vw;
+    /* height: 100vh; */
+    align-items: center;
+    background-color: #ffffff;
+}
+
+
+
+/* Index Page */
+
+.index-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.enter-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.enter-button {
+    font-family: "libre baskerville", serif;
+    background-color: #2356ac; 
+    color: #C49128; 
+    padding: 10px 20px;
+    font-size: 3vb; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.enter-button:hover {
+    background-color: #0F264D; 
+}
+
+
+
+/* Footer */
+
+footer {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 150px;
+background-color: #17130A;
+}
+
+.footercopyright { 
+    font-size: .8rem;
+    color: #B47B12;
+}
+
+.copyrighticon {
+    max-width: 5px;
+    height: auto;
+}
+
+.footer-logo img {
+    width: 20%;
+    height: auto; 
+}
+
+
+.footer-container {
+    display: flex;
+    background-color: #17130A;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    height: 150px;
+    width: 100%;
+}
+
+.footer-container img {
+    max-width: 60px;
+    height: auto;
+    padding: 10px;
+}
+
+
+/* .gallery-container img {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    flex-direction: row;
+}
+
+.galleryimages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 70%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+} */
+.imagetextcontainer {
+    background-color: #17130A;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    align-items: flex-start;
+    text-align: center;
+
+} 
+
+.updatesimg {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    flex-direction: row;
+    padding: 30px;
+}
+
+.updatescolumn {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+.bluecirclelayers {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: rotate 30s linear infinite;
+    }
+
+.bluecirclelayers img {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bluecircle {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    align-items: center;
+    padding: 30px;
+    animation: rotate 30s linear infinite; 
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+
+
+
+
+/* @keyframes rotate {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    } */
+
+
+
+
+/* .spacer {
+    height: 50px;
+    width: 100%;
+    flex-direction: row;
+} */
+
+/* 
+ssection: display felx no column “row”
+2 column 
+each is flex (displ)
+flex direction row
+50%(100% mob) + padding
+each image will have container 
+img width 100%
+height auto 
+*/
+
+
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 10%;
+    margin: 0 auto;
+    padding: 90px; */
+
+
+
+
+/* h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #eeeeee;
+    margin: 0;
+} */
+
+/* .hero {
+    width: 100%;
+    height: 100vh;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
